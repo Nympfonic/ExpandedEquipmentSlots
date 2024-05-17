@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandedEquipmentSlots", "ExpandedEquipmentSlots\ExpandedEquipmentSlots.csproj", "{44E5EAA7-714F-4192-A718-C40EB73B80E3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandedEquipmentSlotsPatcher", "ExpandedEquipmentSlotsPatcher\ExpandedEquipmentSlotsPatcher.csproj", "{9E6CB9C8-526A-46FA-A0C2-B3A4740CDE73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{44E5EAA7-714F-4192-A718-C40EB73B80E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E5EAA7-714F-4192-A718-C40EB73B80E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E5EAA7-714F-4192-A718-C40EB73B80E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6CB9C8-526A-46FA-A0C2-B3A4740CDE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6CB9C8-526A-46FA-A0C2-B3A4740CDE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6CB9C8-526A-46FA-A0C2-B3A4740CDE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6CB9C8-526A-46FA-A0C2-B3A4740CDE73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
