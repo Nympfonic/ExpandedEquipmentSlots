@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPT-Client-Mod-Template", "SPT-Client-Mod-Template.csproj", "{96E8A472-AD73-444C-BF45-E3E96847EC05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandedEquipmentSlots", "ExpandedEquipmentSlots\ExpandedEquipmentSlots.csproj", "{44E5EAA7-714F-4192-A718-C40EB73B80E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96E8A472-AD73-444C-BF45-E3E96847EC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96E8A472-AD73-444C-BF45-E3E96847EC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96E8A472-AD73-444C-BF45-E3E96847EC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96E8A472-AD73-444C-BF45-E3E96847EC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E5EAA7-714F-4192-A718-C40EB73B80E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E5EAA7-714F-4192-A718-C40EB73B80E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E5EAA7-714F-4192-A718-C40EB73B80E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E5EAA7-714F-4192-A718-C40EB73B80E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
