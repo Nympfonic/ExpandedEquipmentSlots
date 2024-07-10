@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Arys-$(MSBuildProjectName)</AssemblyName>
-    <RootNamespace>Arys.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <RootNamespace>Arys.EES.PreloadPatcher</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Mono.Cecil">
-      <HintPath>..\..\SPT Assembly Refs\38x\Mono.Cecil.dll</HintPath>
+      <HintPath>..\..\SPT Assembly Refs\39x\Mono.Cecil.dll</HintPath>
     </Reference>
   </ItemGroup>
 

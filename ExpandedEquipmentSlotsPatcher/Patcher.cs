@@ -1,7 +1,7 @@
 ﻿using Mono.Cecil;
 using System.Collections.Generic;
 
-namespace Arys.ExpandedEquipmentSlotsPatcher
+namespace Arys.EES.PreloadPatcher
 {
     public static class Patcher
     {
