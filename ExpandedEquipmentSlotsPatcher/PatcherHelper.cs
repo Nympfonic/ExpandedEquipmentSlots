@@ -23,25 +23,24 @@ namespace Arys.EES.PreloadPatcher
             {
                 int currentValue = (int)enumFields[i].Constant;
 
+                var newEnumField = new FieldDefinition(name, defaultFieldAttributes, typeDef)
+                {
+                    Constant = currentValue + 1
+                };
+
+                // If we've reached the end of the enum fields collection, add a new enum field at the end
                 if (i + 1 == enumFields.Count)
                 {
-                    enumFields.Add(new FieldDefinition(name, defaultFieldAttributes, typeDef)
-                    {
-                        Constant = currentValue + 1
-                    });
-
+                    enumFields.Add(newEnumField);
                     break;
                 }
 
+                // Otherwise we check if there is a gap between enum field values
+                // Insert new enum field if above is true
                 int nextValue = (int)enumFields[i + 1].Constant;
-
                 if (nextValue - currentValue > 1)
                 {
-                    enumFields.Add(new FieldDefinition(name, defaultFieldAttributes, typeDef)
-                    {
-                        Constant = currentValue + 1
-                    });
-
+                    enumFields.Add(newEnumField);
                     break;
                 }
             }
